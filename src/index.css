@@ -8,8 +8,17 @@
   --color-hard-primary: #2C7D2F;
   --color-warning: #FF8A00;
   --color-danger: #EA4B48;
+  --shadow-soft:  0 -3px 6px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-medium: 0px 8px 12px rgba(0, 0, 0, 0.15);
+  --shadow-hard: 0px 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 * {
   font-family: 'Poppins';
+}
+button {
+  @apply hover:cursor-pointer
+}
+.animate {
+  @apply transition-all duration-300 ease-in-out
 }

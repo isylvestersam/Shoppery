@@ -30,7 +30,7 @@ const Button = ({ buttonType, buttonSize, children } ) => {
 
   return ( 
     <button
-      className={ ` ${type} ${size} rounded-full transition-all duration-200 ease-in-out hover:cursor-pointer font-medium` }
+      className={ ` ${type} ${size} w-full rounded-full transition-all duration-200 ease-in-out hover:cursor-pointer font-medium` }
     >
       { children }
     </button>
