@@ -2,7 +2,7 @@ import locationIcon from '../Icons/location-icon.svg'
 import downwardsArrow from '../Icons/downward-arrow-icon.svg'
 
 const StoreLocation = () => {
-  return ( <div className='flex justify-between'>
+  return ( <div className='justify-between hidden lg:flex'>
     <div className='flex gap-2 mx-auto lg:mx-0'>
       <img src={locationIcon} alt="" />
       <p className='text-xs lg:text-base' >Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
