@@ -6,10 +6,6 @@ import NavBar from "../ui/NavBar";
 
 const Homepage = () => {
 
-  fetch('https://fakestoreapi.com/products')
-  .then(response => response.json())
-  .then(data => console.log(data));
-
   return ( <div>
     <div className="container flex flex-col mx-auto pt-3 px-24">
       <NavBar />

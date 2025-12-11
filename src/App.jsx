@@ -9,6 +9,7 @@ import NavBar from "./ui/NavBar"
 import DesktopNavigator from "./ui/DesktopNavigator"
 import Homepage from "./Pages/Homepage"
 import ProductCard from "./ui/ProductCard"
+import MobileFeaturesSlider from "./ui/MobileFeaturesSlider"
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
         </div> */}
 
         <Homepage />
-        <ProductCard />
+        <MobileFeaturesSlider />
         
       </section> 
       
