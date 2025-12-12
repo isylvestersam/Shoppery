@@ -14,34 +14,34 @@ import cauliflowerImage from '../Images/cauliflower.png';
 export const featuredProducts = [
   {
     id: 1,
-    name: "Green Apple",
+    title: "Green Apple",
     price: 1.99,
     image: appleImage,
     rating: 4.5
   },
   {
     id: 2,
-    name: "Cabbage",
+    title: "Cabbage",
     price: 0.99,
     image: cabbageImage,
     rating: 4.5
   },
   {
     id: 3,
-    name: "Green Pepper",
+    title: "Green Pepper",
     price: 1.49,
     image: greenPepperImage,
     rating: 4.0
   },
   {
     id: 4,
-    name: "Corn",
+    title: "Corn",
     price: 0.79,
     image: cornImage,
     rating: 4.2
   },
   {    id: 5,
-    name: "Lettuce",
+    title: "Lettuce",
     price: 1.29,
     image: lettuceImage,
     rating: 4.3
@@ -51,21 +51,21 @@ export const featuredProducts = [
 export const hotDeals = [
   {
     id: 1,
-    name: "Green Apple ",
+    title: "Green Apple ",
     price: 1.99,
     image: appleImage,
     rating: 4.5
   },
   {
     id: 2,
-    name: "Indian Malta",
+    title: "Indian Malta",
     price: 0.99,
     image: indianMaltaImage,
     rating: 4.5
   },
   {
     id: 3,
-    name: "Green Lettuce",
+    title: "Green Lettuce",
     price: 1.49,
     image: lettuceImage,
     rating: 4.0
@@ -75,21 +75,21 @@ export const hotDeals = [
 export const bestSellers = [
   {
     id: 1,
-    name: "Eggplant", 
+    title: "Eggplant", 
     price: 1.99,
     image: eggplantImage,
     rating: 4.5
   },
   {
     id: 2,
-    name: "Red Capsicum",
+    title: "Red Capsicum",
     price: 0.99,
     image: redCapsicumImage,
     rating: 4.5
   },
   {
     id: 3,
-    name: "Red Tomato",
+    title: "Red Tomato",
     price: 1.49,
     image: redTomatoImage,
     rating: 4.0
@@ -99,21 +99,21 @@ export const bestSellers = [
 export const topRated = [ 
   {
     id: 1,
-    name: "Big Potato",
+    title: "Big Potato",
     price: 1.99,
     image: bigPotatoImage,
     rating: 4.5
   },
   {
     id: 2,
-    name: "Corn",
+    title: "Corn",
     price: 0.99,
     image: cornImage,
     rating: 4.5
   },
   {
     id: 3,
-    name: "Fresh Cauliflower",
+    title: "Fresh Cauliflower",
     price: 1.49,
     image: cauliflowerImage,
     rating: 4.0

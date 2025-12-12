@@ -4,6 +4,7 @@ import DesktopNavigator from "../ui/DesktopNavigator";
 import NavBar from "../ui/NavBar";
 import FeaturedProducts from "../Components/FeaturedProducts";
 import CompactCard from "../ui/CompactCard";
+import Showcase from "../ui/Showcase";
 
 
 const Homepage = () => {
@@ -29,7 +30,7 @@ const Homepage = () => {
     </section>
     <div className="container flex flex-col mx-auto py-4 px-4  lg:px-24 ">
       <FeaturedProducts />
-      <CompactCard />
+      <Showcase />
     </div>
   </div> );
 }
