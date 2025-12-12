@@ -5,7 +5,7 @@ import shoppingBag from '../Icons/add-to-cart.svg'
 import halfStarIcon from '../Icons/half-star.svg';
 
 const ProductCard = ( {image, title, price, rating} ) => {
-  return ( <div className='relative group flex flex-col justify-between border border-gray-300 px-4 pb-4 h-82 rounded-xl w-58  hover:border-primary hover:shadow-soft animate lg:h-72'> 
+  return ( <div className='relative group flex flex-col justify-between border border-gray-300 px-4 pb-4 h-82 rounded-xl w-58 hover:scale-[0.99] shadow-soft hover:border-primary hover:shadow-none animate lg:h-72'> 
     <img src={image} alt="" />
     <div className=''>
       <div className='flex justify-between items-center'>
@@ -17,13 +17,13 @@ const ProductCard = ( {image, title, price, rating} ) => {
                 const starNumber = i + 1;
                 if (rating >= starNumber) {
                   // Full star
-                  return <img key={i} src={starIcon} alt='full star' />;
+                  return <img key={i} src={starIcon} alt='full star' className='w-3' />;
                 } else if (rating >= starNumber - 0.5) {
                   // Half star
-                  return <img key={i} src={halfStarIcon} alt='half star' />;
+                  return <img key={i} src={halfStarIcon} alt='half star'  className='w-3' />;
                 } else {
                   // Empty star
-                  return <img key={i} src={unstarIcon} alt='empty star' />;
+                  return <img key={i} src={unstarIcon} alt='empty star' className='w-3' />;
                 }
               })}
           </div>
