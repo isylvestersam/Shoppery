@@ -9,6 +9,7 @@ import TopCategoryCard from "../ui/TopCategoryCard";
 import TopCategory from "../Components/TopCategory";
 import TestimonialCard from "../ui/TestimonialCard";
 import TestimonialSection from "../Components/TestimonialSection";
+import NewsLetterSection from "../Components/NewsletterSection";
 
 
 const Homepage = () => {
@@ -38,9 +39,20 @@ const Homepage = () => {
       <TopCategory />
     </div>
     <section className="bg-[#F9FAF7] ">
-      <div className="container flex flex-col mx-auto pb-16  px-4  lg:px-20 lg:pb-20 ">
+      <div className="container flex flex-col mx-auto pb-16  px-4  lg:px-20 lg:pb-12 mb-16">
         <TestimonialSection />
       </div>
+    </section>
+    <section className="bg-[#F9FAF7] ">
+      <div className="container flex flex-col mx-auto py-12  px-4  lg:px-20 lg:pb-8 lg:pt-8 mb-16">
+        <NewsLetterSection />
+      </div>
+    </section>
+
+    <section className="bg-black">
+    <div className="container flex flex-col mx-auto py-12">
+      
+    </div>
     </section>
   </div> );
 }

@@ -1,6 +1,6 @@
 
 
-const Button = ({ buttonType, buttonSize, classname, children } ) => {
+const Button = ({ buttonType, buttonSize, classname, children, ...props } ) => {
   let type = '';
   let size = '';
 
@@ -9,7 +9,7 @@ const Button = ({ buttonType, buttonSize, classname, children } ) => {
       size = 'px-6 py-2'
       break
     case 'large':
-      size = 'px-9 py-3'
+      size = 'px-10 py-3'
       break
     default:
       size = 'px-4 py-[0.30rem] '
@@ -31,6 +31,7 @@ const Button = ({ buttonType, buttonSize, classname, children } ) => {
   return ( 
     <button
       className={ ` ${type} ${size} ${classname} rounded-full transition-all duration-200 ease-in-out hover:cursor-pointer font-medium` }
+      {...props}
     >
       { children }
     </button>

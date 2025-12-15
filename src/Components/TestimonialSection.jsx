@@ -72,7 +72,7 @@ const TestimonialSection = () => {
       ))
     }
   </div>
-  <div className="mt-12 mx-auto flex gap-2 justify-center ">
+  <div className="hidden mt-12 mx-auto gap-2 justify-center lg:flex ">
     {
       Array.from({ length: totalPages }).map((_, pageIndex) => (
         <button 
@@ -80,7 +80,7 @@ const TestimonialSection = () => {
           onClick={() => setCurrentIndex(pageIndex * itemsPerPage)}
           className={`
             w-3 h-3 rounded-full cursor-pointer
-            ${currentPage === pageIndex ? 'bg-primary' : 'bg-gray-300'}
+            ${currentPage === pageIndex ? 'bg-primary w-5' : 'bg-gray-300'}
           `}
         ></button>
       ))
