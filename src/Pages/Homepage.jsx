@@ -8,34 +8,35 @@ import Showcase from "../ui/Showcase";
 import TopCategoryCard from "../ui/TopCategoryCard";
 import TopCategory from "../Components/TopCategory";
 import TestimonialCard from "../ui/TestimonialCard";
+import TestimonialSection from "../Components/TestimonialSection";
 
 
 const Homepage = () => {
 
   return ( <div className="pb-16">
-    <div className="container flex flex-col mx-auto pt-3 px-4  lg:px-24 ">
+    <div className="container flex flex-col mx-auto pt-3 px-4  lg:px-20 ">
       <NavBar />
     </div>
     <section className="bg-[#333333] hidden lg:flex mt-4">
-      <div className="container flex flex-col mx-auto py-4  px-4  lg:px-24 ">
-            <DesktopNavigator />
-          </div>
-        </section>
+      <div className="container flex flex-col mx-auto py-4  px-4  lg:px-20 ">
+        <DesktopNavigator />
+      </div>
+    </section>
     <section className="bg-[#EDF2EE] ">
-      <div className="container flex flex-col mx-auto py-4  px-4  lg:px-24  ">
+      <div className="container flex flex-col mx-auto py-4  px-4  lg:px-20  ">
         <HeroSection />
       </div>
     </section>
     <section className="bg-white ">
-      <div className="container flex flex-col mx-auto py-4  px-4  lg:px-24  ">
+      <div className="container flex flex-col mx-auto py-4  px-4  lg:px-20  ">
         <FeaturesTab />
       </div>
     </section>
-    <div className="container flex flex-col mx-auto py-4 px-4  lg:px-24 ">
+    <div className="container flex flex-col mx-auto py-4 px-4  lg:px-20 ">
       <FeaturedProducts />
       <Showcase />
       <TopCategory />
-      <TestimonialCard />
+      <TestimonialSection />
     </div>
   </div> );
 }

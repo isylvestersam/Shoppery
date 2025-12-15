@@ -22,3 +22,9 @@ button {
 .animate {
   @apply transition-all duration-200 ease-in-out
 }
+.flex-between {
+  @apply flex justify-between items-center
+}
+.flex-center {
+  @apply flex justify-center items-center
+}

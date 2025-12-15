@@ -7,7 +7,7 @@ const ProductCard = ( {image, title, price, rating} ) => {
       <div className='flex justify-between items-center'>
         <div className='flex flex-col items-start'>
           <h4 className='text-gray-500'> {title} </h4>
-          <h2 className='text-xl mb-2'>${price}</h2>
+          <h2 className='text-2xl font-medium mb-2'>${price}</h2>
           <div className='flex gap-1'>
             {[...Array(5)].map((_, i) => {
                 const starNumber = i + 1;

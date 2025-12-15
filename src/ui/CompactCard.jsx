@@ -9,7 +9,7 @@ const CompactCard = ({ title, price, rating, image }) => {
     <img src={image} className='w-28' />
     <div className='flex flex-col gap-1  animate'>
       <h3 className='text-green-700'>{title}</h3>
-      <p className='text-lg font-medium group-hover:hidden'>{price}</p>
+      <p className='text-lg font-medium group-hover:hidden'>${price}</p>
       <div className='flex gap-1 group-hover:hidden'>
         {[...Array(5)].map((_, i) => {
         const starNumber = i + 1;

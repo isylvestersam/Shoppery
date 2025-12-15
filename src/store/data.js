@@ -166,3 +166,102 @@ export const TopCategories = [
   }
 
 ]
+
+export const testimonials = [
+  {
+  id: "TM1",
+  rating: 4.8,
+  comment: "The platform made everything so smooth. I wasn’t expecting it to be this easy, but honestly it saved me a lot of stress.",
+  clientName: "Amelia Grant",
+  clientRole: "Customer",
+  clientImage: "/Images/client1.png"
+  },
+  {
+    id: "TM2",
+    rating: 4.2,
+    comment: "I love the interface. It feels clean and very organized. I found exactly what I needed without wasting time.",
+    clientName: "Christopher Lee",
+    clientRole: "Customer",
+    clientImage: "/Images/client2.png"
+  },
+  {
+    id: "TM3",
+    rating: 5.0,
+    comment: "Absolutely impressive. The experience exceeded my expectations in every way. I’ll definitely be coming back.",
+    clientName: "Sophia Rivera",
+    clientRole: "Customer",
+    clientImage: "/Images/client3.png"
+  },
+  {
+    id: "TM4",
+    rating: 4.6,
+    comment: "Customer support was surprisingly fast. I asked one question and got a clear response almost immediately.",
+    clientName: "Daniel Thompson",
+    clientRole: "Customer",
+    clientImage: "/Images/client4.png"
+  },
+  {
+    id: "TM5",
+    rating: 4.3,
+    comment: "It works well. A few things could load faster, but overall I’m very satisfied with the outcome.",
+    clientName: "Grace Kim",
+    clientRole: "Customer",
+    clientImage: "/Images/client5.png"
+  },
+  {
+    id: "TM6",
+    rating: 4.9,
+    comment: "Honestly this was such a relief. The whole process is straightforward and the results were exactly what I was hoping for.",
+    clientName: "Michael Carter",
+    clientRole: "Customer",
+    clientImage: "/Images/client6.png"
+  },
+  {
+    id: "TM7",
+    rating: 4.7,
+    comment: "Very reliable. I’ve tried similar platforms and none have given me a smoother experience than this.",
+    clientName: "Isabella Flores",
+    clientRole: "Customer",
+    clientImage: "/Images/client7.png"
+  },
+  {
+    id: "TM8",
+    rating: 4.4,
+    comment: "It did everything I needed and more. I appreciate how simple the navigation is for someone like me.",
+    clientName: "Marcus Allen",
+    clientRole: "Customer",
+    clientImage: "/Images/client8.png"
+  },
+  {
+    id: "TM9",
+    rating: 5.0,
+    comment: "Top notch. I recommended it to two friends already because it just works and doesn’t waste your time.",
+    clientName: "Ella Johnson",
+    clientRole: "Customer",
+    clientImage: "/Images/client9.png"
+  },
+  {
+    id: "TM10",
+    rating: 4.1,
+    comment: "Good experience overall. I ran into a minor issue but it was resolved quickly, so I can’t complain.",
+    clientName: "Jonathan Perez",
+    clientRole: "Customer",
+    clientImage: "/Images/client10.png"
+  },
+  {
+    id: "TM11",
+    rating: 4.9,
+    comment: "Very impressed. Clean, fast, and exactly how a modern service should feel. Keep it up.",
+    clientName: "Maya Brooks",
+    clientRole: "Customer",
+    clientImage: "/Images/client11.png"
+  },
+  {
+    id: "TM12",
+    rating: 4.5,
+    comment: "It’s simple yet powerful. I didn’t feel lost at any point and everything worked as expected.",
+    clientName: "Ethan Scott",
+    clientRole: "Customer",
+    clientImage: "/Images/client12.png"
+  }
+]
