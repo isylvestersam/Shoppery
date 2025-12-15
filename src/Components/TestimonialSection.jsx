@@ -4,13 +4,20 @@ import { useState } from "react";
 
 const TestimonialSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const mobileTestimonials = [ ...testimonials].slice(currentIndex, currentIndex + 3);
+
+  const itemsPerPage = 3;
+  const totalPages = Math.ceil(testimonials.length / itemsPerPage);
+  const currentPage = Math.floor(currentIndex / itemsPerPage);
+  const mobileTestimonials = testimonials.slice(
+    currentPage * itemsPerPage,
+    currentPage * itemsPerPage + itemsPerPage
+  )
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? testimonials.length - 3 : prevIndex - 3));
+    setCurrentIndex((currentPage - 1 + totalPages) % totalPages * itemsPerPage);
   };
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === testimonials.length - 3 ? 0 : prevIndex + 3));
+    setCurrentIndex((currentPage + 1) % totalPages * itemsPerPage)
   }
 
 
@@ -62,6 +69,20 @@ const TestimonialSection = () => {
           clientRole={testimonial.clientRole}
           clientImage={testimonial.clientImage}
         />
+      ))
+    }
+  </div>
+  <div className="mt-12 mx-auto flex gap-2 justify-center ">
+    {
+      Array.from({ length: totalPages }).map((_, pageIndex) => (
+        <button 
+          key={pageIndex} 
+          onClick={() => setCurrentIndex(pageIndex * itemsPerPage)}
+          className={`
+            w-3 h-3 rounded-full cursor-pointer
+            ${currentPage === pageIndex ? 'bg-primary' : 'bg-gray-300'}
+          `}
+        ></button>
       ))
     }
   </div>

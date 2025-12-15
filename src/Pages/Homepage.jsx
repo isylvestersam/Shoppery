@@ -36,8 +36,12 @@ const Homepage = () => {
       <FeaturedProducts />
       <Showcase />
       <TopCategory />
-      <TestimonialSection />
     </div>
+    <section className="bg-[#F9FAF7] ">
+      <div className="container flex flex-col mx-auto pb-16  px-4  lg:px-20 lg:pb-20 ">
+        <TestimonialSection />
+      </div>
+    </section>
   </div> );
 }
  
