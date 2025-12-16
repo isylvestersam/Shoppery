@@ -57,57 +57,12 @@ const NavBar = () => {
       </button>
 
       {/* Drop Down */}
-      {
+      {/* {
         isOpen ? (
-            <div className='fixed flex flex-col pl-8 pb-12 pt-30 h-full justify-between inset-0 z-20 bg-white opacity-97'>
-              <div className='z-50 w-full   flex flex-col gap-5 '>
-                  <span className='flex gap-3'>
-                    <img src="/Icons/home-icon.svg" className='w-7' alt="" />
-                    <a href="" className='text-xl'>Home</a>
-                  </span>
-                  <span className='flex gap-3'>
-                    <img src="/Icons/shopping-cart.svg" className='w-7' alt="" />
-                    <a href="" className='text-xl'>Shop</a>
-                  </span>
-                  <span className='flex gap-3'>
-                    <img src="/Icons/book.svg" className='w-7' alt="" />
-                    <a href="" className='text-xl'>Blog</a>
-                  </span>
-                  <span className='flex gap-3'>
-                    <img src="/Icons/badge-question-mark.svg" className='w-7' alt="" />
-                    <a href="" className='text-xl'>About Us</a>
-                  </span>
-                  <span className='flex gap-3'>
-                    <img src="/Icons/phone.svg" className='w-7' alt="" />
-                    <a href="" className='text-xl'>Contact Us</a>
-                  </span>
-                </div>
-                  <div className='flex flex-col gap-2 mt-26'>
-                    <a href="" className='underline hover:text-primary animate  text-lg'>Contact Us</a>
-                    <a href="" className='underline hover:text-primary animate text-lg'>Privacy Policy</a>
-                    <a href="" className='underline hover:text-primary animate text-lg'>Terms and Condition</a>
-                  </div>
-                  <div className='flex w-full items-center justify-center gap-4 '>
-                    <button>
-                      <img src="/Icons/facebook.svg" className='w-8'/>
-                    </button>
-                    <button>
-                      <img src="/Icons/twitter.svg" className='w-10'/>
-                    </button>
-                    <button>
-                      <img src="/Icons/pinterest.svg" className='w-10'/>
-                    </button>
-                    <button>
-                      <img src="/Icons/instagram.svg" className='w-10'/>
-                    </button>
-                  </div>
-                
-                
-              
-            </div>
+            
           
         ) : null
-      }
+      } */}
 
       
     </div>

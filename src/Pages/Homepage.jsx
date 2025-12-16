@@ -11,15 +11,20 @@ import TestimonialCard from "../ui/TestimonialCard";
 import TestimonialSection from "../Components/TestimonialSection";
 import NewsLetterSection from "../Components/NewsletterSection";
 import Footer from "../Components/Footer";
+import StoreLocation from "../ui/StoreLocation";
 
 
 const Homepage = () => {
 
   return ( <div className="">
-    <div className="container flex flex-col mx-auto pt-3 px-4  lg:px-20 ">
-      <NavBar />
+    <div className="container flex flex-col mx-auto pt-3 px-8 lg:px-20">
+          <StoreLocation />
     </div>
-    <section className="bg-[#333333] hidden lg:flex mt-4">
+
+    {/* Diver Line */}
+    <div className=" w-full h-px border-b border-b-gray-200 mt-3 mb-5 ">
+    </div>
+    <section className="bg-[#333333] flex mt-4">
       <div className="container flex flex-col mx-auto py-4  px-4  lg:px-20 ">
         <DesktopNavigator />
       </div>
@@ -51,7 +56,7 @@ const Homepage = () => {
     </section>
 
     <section className="bg-black">
-    <div className="container flex flex-col mx-auto py-12 px-6 lg:px-20 ">
+    <div className="container flex flex-col mx-auto py-12 px-6 lg:px-20 lg:pb-4">
       <Footer />
     </div>
     </section>

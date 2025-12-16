@@ -1,22 +1,22 @@
 
 
 const StoreLocation = () => {
-  return ( <div className='justify-between hidden lg:flex'>
-    <div className='flex gap-2 mx-auto lg:mx-0'>
-      <img src="/Icons/location-icon.svg" alt="" />
-      <p className='text-xs lg:text-base' >Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+  return ( <div className='justify-between flex'>
+    <div className='flex w-fit gap-2 lg:mx-auto lg:mx-0'>
+      <img src="/Icons/location-icon.svg" alt="" className="" />
+      <p className='text-xs hidden lg:flex' >Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
     </div>
-    <div className='hidden gap-2 items-center lg:flex'>
+    <div className='gap-2 items-center flex'>
       <button className='flex gap-2'>
-        <p>ENG</p>
+        <p className="text-xs">ENG</p>
         <img src="/Icons/downward-arrow-icon.svg" className='w-3' />
       </button>
       <button className='flex gap-2'>
-        <p>USD</p>
-        <img src="'../Icons/downward-arrow-icon.svg" className='w-3' />
+        <p className="text-xs">USD</p>
+        <img src="/Icons/downward-arrow-icon.svg" className='w-3' />
       </button>
-      <p>|</p>
-      <p>Sign in / Up</p>
+      <p className="text-xs">|</p>
+      <p className="text-xs">Sign in / Up</p>
     </div>
   </div> );
 }

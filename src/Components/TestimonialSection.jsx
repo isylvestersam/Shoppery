@@ -79,8 +79,8 @@ const TestimonialSection = () => {
           key={pageIndex} 
           onClick={() => setCurrentIndex(pageIndex * itemsPerPage)}
           className={`
-            w-3 h-3 rounded-full cursor-pointer
-            ${currentPage === pageIndex ? 'bg-primary w-5' : 'bg-gray-300'}
+            w-2 h-2 rounded-full cursor-pointer
+            ${currentPage === pageIndex ? 'bg-primary w-4' : 'bg-gray-300'}
           `}
         ></button>
       ))
