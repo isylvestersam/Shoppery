@@ -10,11 +10,12 @@ import TopCategory from "../Components/TopCategory";
 import TestimonialCard from "../ui/TestimonialCard";
 import TestimonialSection from "../Components/TestimonialSection";
 import NewsLetterSection from "../Components/NewsletterSection";
+import Footer from "../Components/Footer";
 
 
 const Homepage = () => {
 
-  return ( <div className="pb-16">
+  return ( <div className="">
     <div className="container flex flex-col mx-auto pt-3 px-4  lg:px-20 ">
       <NavBar />
     </div>
@@ -50,8 +51,8 @@ const Homepage = () => {
     </section>
 
     <section className="bg-black">
-    <div className="container flex flex-col mx-auto py-12">
-      
+    <div className="container flex flex-col mx-auto py-12 px-6 lg:px-20 ">
+      <Footer />
     </div>
     </section>
   </div> );

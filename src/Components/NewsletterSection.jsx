@@ -10,7 +10,7 @@ const NewsLetterSection = () => {
         Get the latest news and updates right at your inbox.
       </p>
     </span>
-    <div className="flex  ">
+    <div className="flex gap-2 mt-2 lg:mt-0">
       <input type="text" placeholder="Your email address" className=" bg-white border border-gray-300 py-3 rounded-full px-6 placeholder:text-sm" />
       <Button
         buttonType="primary"

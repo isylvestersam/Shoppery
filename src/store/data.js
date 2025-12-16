@@ -265,3 +265,36 @@ export const testimonials = [
     clientImage: "/Images/client12.png"
   }
 ]
+
+export const footerData = [
+  {
+    sectionTitle: "My Account",
+    links: [
+      "My Account",
+      "Order History",
+      "Shopping Cart",
+      "Wishlist",
+      "Settings"
+    ]
+  },
+  { 
+    sectionTitle: "Helps",
+    links: [
+      "Contact",
+      "Faqs",
+      "Terms and Conditions",
+      "Privacy Policy",
+      "Settings"
+    ]
+  },
+  {
+    sectionTitle: "About",
+    links: [
+      "About",
+      "Shop",
+      "Product",
+      "Privacy Policy",
+      "Track Order"
+    ]
+  }
+]
